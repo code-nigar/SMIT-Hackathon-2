@@ -40,6 +40,7 @@ export default function AllProducts() {
       //render each document as a card
       return (
         <div className="d-flex flex-column justify-content-center align-items-center">
+          <h2 className="sub-heading m-2">All Products</h2>
           {cld.map((x) => (
             <ProductCard
               productImg={x.data.productImageUrl}
@@ -59,9 +60,5 @@ export default function AllProducts() {
     }
   };
 
-  return (
-    <>
-      {renderListingCard(CL_data)}
-    </>
-  );
+  return <>{renderListingCard(CL_data)}</>;
 }
