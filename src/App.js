@@ -3,7 +3,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import SplashScreen from './pages/SplashScreen/SplashScreen';
 import SignUp from './pages/SignUp/SignUp';
 import SignIn from './pages/SignIn/SignIn';
-import UserHome from './pages/UserInterface/UserHome'
+import UserHome from './pages/UserInterface/UserHome';
+import AdminInterface from './pages/AdminInterface/AdminInterface';
 
 const Routing =()=>{
   return (
@@ -14,6 +15,7 @@ const Routing =()=>{
           <Route path="sign-up" element={<SignUp />} />
           <Route path="sign-in" element={<SignIn />} />
           <Route path="/UserHome/:id" element={<UserHome />}/>
+          <Route path="/AdminInterface/:id" element={<AdminInterface />}/>
         </Routes>
       </div>
     </BrowserRouter>

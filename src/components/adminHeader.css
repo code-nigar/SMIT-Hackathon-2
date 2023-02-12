@@ -1,0 +1,11 @@
+.admin-profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid  rgba(2, 79, 157, 1);
+}
+
+.admin-detail{
+    font-weight: 600;
+    color: rgba(2, 79, 157, 1);
+}

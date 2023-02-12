@@ -1,0 +1,13 @@
+.product-card{
+    width: 85vw;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-card>img{
+    width: 15vw;
+    height: 70px;
+    object-fit: contain;
+}

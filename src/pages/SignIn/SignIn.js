@@ -24,7 +24,11 @@ export default function SignIn() {
         //dispatch trigger the action to replace login switch from navbar with logout switch
         // dispatch({ type: "USER", payload: true });
         //navigate user to profile page
-        navigate(`/UserHome/${user.uid}`);
+        if(user.uid === "CwrGBEAasYbFChfjLyEReY2bSZJ3"){
+          navigate(`/AdminInterface/${user.uid}`)
+        }else{
+          navigate(`/UserHome/${user.uid}`);
+        }
         // ...
       })
       .catch((error) => {
