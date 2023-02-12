@@ -1,0 +1,27 @@
+.form-container {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.8px);
+  -webkit-backdrop-filter: blur(9.8px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 40px 40px;
+  max-width: 400px;
+}
+
+#thePage {
+    background-image:
+    radial-gradient(rgba(245, 252, 246, 0.52), rgba(19, 114, 117, 0.73));
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid;
+  padding: 5px;
+  background-color: transparent;
+  color: rgba(2, 79, 157, 1);;
+}

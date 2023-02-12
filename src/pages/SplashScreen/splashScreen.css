@@ -1,0 +1,33 @@
+#thePage {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 252, 246, 0.52), rgba(19, 114, 117, 0.73));
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+#top-section{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#bottom-section{
+    margin: 0px auto;
+    margin-bottom: 10vh;
+}
+.heading{
+    color: rgba(97, 184, 70, 1);
+}
+
+.sub-heading{
+    color: rgba(2, 79, 157, 1);
+}
+
+@media (max-width:700px) {
+    .store-logo{
+        width: 50%;
+        height: auto;
+    }
+}
