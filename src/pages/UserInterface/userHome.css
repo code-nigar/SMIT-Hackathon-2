@@ -1,0 +1,31 @@
+.top-bar{
+    width: 100vw;
+    padding: 5px 20px;
+}
+
+.carousel-img{
+    object-fit: cover;
+    height: 30vh;
+    width: 90vw;
+    border-radius: 20px;
+}
+
+.heading{
+    color: rgba(97, 184, 70, 1);
+}
+
+.sub-heading{
+    color: rgba(2, 79, 157, 1);
+}
+
+.action-bar{
+    background-color:  rgba(97, 184, 70, 1);
+    width: 100vw;
+    position:fixed;
+    bottom:0px;
+
+}
+
+.action-bar>button:hover{
+    color: rgba(2, 79, 157, 1);
+}

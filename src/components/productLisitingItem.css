@@ -1,0 +1,37 @@
+.product-lisiting-item{
+    width: 90vw;
+    border-radius: 15px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+}
+
+.item-image{
+    width: 15vw;
+    height: 120px;
+}
+.item-image>img{
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+
+.item-details{
+    width: 50vw;
+}
+
+.item-title{
+    width: inherit;
+    text-align: left;
+}
+.item-description{
+    width: inherit;
+    overflow-y: hidden;
+    height: 60px;
+    font-size: small;
+    text-align: left;
+}
+
+.item-pricing{
+    width:10vw;
+}
